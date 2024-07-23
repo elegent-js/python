@@ -3,9 +3,9 @@ from collections import namedtuple
 
 # 定义一个命名元组
 Stock = namedtuple('Stock', ['name', 'shares', 'price'])
-list = [
+my_list = [
     ["hello", "world", "python"]
 ]
-for record in list:
+for record in my_list:
     s = Stock(*record)
     print(s.name, s.shares, s.price)

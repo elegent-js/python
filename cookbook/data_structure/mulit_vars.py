@@ -24,7 +24,7 @@ print(day)
 
 # 不仅列表和元组可以分解，字符串，对象，迭代器等都可以分解
 s = 'Hello'
-a,b,c,d,e = s
+a, b, c, d, e = s
 print(a)
 print(b)
 print(c)
@@ -36,4 +36,3 @@ data = ['ACME', 50, 91.1, (2012, 12, 21)]
 _, shares, price, _ = data
 print(shares)
 print(price)
-

@@ -7,6 +7,7 @@ class PriorityQueue:
     """
     定义优先级队列类，采用heapq模块实现
     """
+
     def __init__(self):
         self._queue = []
         self._index = 0
@@ -23,6 +24,7 @@ class Item:
     """
     定义一个Item类，用于测试优先级队列
     """
+
     def __init__(self, name):
         self.name = name
 
