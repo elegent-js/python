@@ -32,7 +32,8 @@ class Car:
         """将里程表读数增加指定的量"""
         self.odometer_reading += miles
 
-
+# 电动汽车类继承自汽车类，注意语法没有extends关键字，而是采用括号的形式
+# 类名的命名规范同Java，首字母大些，驼峰命名
 class ElectricCar(Car):
     """电动车的独特之处"""
 

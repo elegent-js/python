@@ -26,3 +26,11 @@ price = {
 # 最大值
 max_price = max(zip(price.values(), price.keys()))
 print(max_price)
+
+# 生成器表达式(generator expression)
+gen = (x ** 2 for x in range(10))
+print(list(gen))
+
+# 列表推导式（list comprehension）
+gen = [x ** 2 for x in range(10)]
+print(gen)

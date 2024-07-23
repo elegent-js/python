@@ -1,3 +1,8 @@
+# 演示python中类的创建，注意构造方法是__init__，类中的方法第一个参数是self
+# 类中的属性通过self.xxx来访问，类中的方法通过self.method()来调用
+# 类中的方法第一个参数是self，表示实例本身，类似java中的this
+# 类中的方法调用时，不需要传递self参数，python会自动传递
+
 class Dog:
     """一次模拟小狗的简单尝试"""
 
