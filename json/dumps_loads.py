@@ -7,9 +7,9 @@ numbers = [1, 2, 3, 4, 5]
 contents = json.dumps(numbers)
 
 print(contents)
+print(type(contents))
 
-
-path = Path("json/numbers.json")
+path = Path("numbers.json")
 contents = path.read_text()
 
 numbers = json.loads(contents)
