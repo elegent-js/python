@@ -36,3 +36,9 @@ print(cars[:5])
 print(cars)
 
 
+requested_toppings = []
+if requested_toppings:
+    for topping in requested_toppings:
+        print(f'Adding {topping}')
+else:
+    print('Are you sure you want a plain pizza?')
