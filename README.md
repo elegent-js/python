@@ -10,3 +10,14 @@
 
 ## 类
 
+## list comprehensions(列表生成式)
+```py
+[x * x for x in range(1, 11) if x % 2 == 0]
+```
+
+## generator
+```py
+g = (x * x for x in range(1, 10000))
+next(g)
+next(g)
+```
