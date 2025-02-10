@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 class Dog:
     """ 一次模拟小狗的简单尝试 """
 
