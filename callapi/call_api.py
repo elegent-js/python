@@ -68,8 +68,8 @@ def save_sql_to_file(sql, file_path):
 
 
 if __name__ == '__main__':
-    app_id = '1676506930522181634'
-    app_secret = '6bafa799eac945a79df0cb04da13fac4'
+    app_id = '*******'
+    app_secret = '**********'
     academic_year = '2024-2025'
     term = '2'
 
